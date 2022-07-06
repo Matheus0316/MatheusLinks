@@ -105,7 +105,7 @@
   }
   
   footer a {
-    color: var(--text-color);
+    color: var(--bg-color);
     transition: color 300ms;
   }
   
