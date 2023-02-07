@@ -4,29 +4,36 @@
     box-sizing: border-box;
   }
   
-  html {
+  html{
     /*Variáveis*/
     --bg-color: #EDF2FF;
     --text-color: #00082F;
     --primary-color: #4263EB; 
     --primary-color-dark: #364FC7;
   }
-  
-  body.dark-blue{
+
+  body.B{
+    --bg-color: #EDF2FF;
+    --text-color: #00082F;
+    --primary-color: #4263EB; 
+    --primary-color-dark: #364FC7;
+  }
+
+  body.DB{
     --bg-color: #00082F;
     --text-color: #FFFFFF;
     --primary-color: #4263EB; 
     --primary-color-dark: #364FC7;
   }
   
-  body.pink{
+  body.P{
     --bg-color: #FFF0F6;
     --text-color: #1F000B;
     --primary-color: #D6336C; 
     --primary-color-dark: #A61E4D;
   }
   
-  body.dark-pink{
+  body.DP{
     --bg-color: #1F000B;
     --text-color: #FFFFFF;
     --primary-color: #D6336C; 
@@ -37,13 +44,15 @@
     color: var(--text-color);
     font-family: 'Roboto', sans-serif;
   }
-  
+
+
+
   .container {
     text-align: center;
     width: 300px;
     margin: 60px auto;
   }
-  
+
   a {
     text-decoration: none;
   }
